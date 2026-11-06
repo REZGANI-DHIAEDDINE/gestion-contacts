@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fb;
+  color: #1f2a44;
+}
+.page { max-width: 760px; margin: 0 auto; padding: 16px; }
+.carte-app {
+  background: white;
+  border: 1px solid #dde2ee;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.barre {
+  background: #3346a5;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 28px;
+}
+.corps { padding: 24px 28px 32px; }
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.btn:hover { filter: brightness(.92); }
+.btn-vert { background: #168458; }
+.btn-bleu { background: #2579d6; }
+.btn-violet { background: #6a50b5; }
+.btn-gris { background: #e5e7eb; color: #374151; }
+.btn-modif { background: #e4e9fc; color: #3346a5; padding: 8px 18px; }
